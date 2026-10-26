@@ -1,0 +1,5 @@
+node_modules/
+.env
+.env.*
+zipFile.zip
+/generated-artifacts/

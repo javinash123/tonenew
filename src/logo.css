@@ -1,0 +1,34 @@
+.brand-logo-wrapper {
+  width: 120px;
+  height: 50px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-logo {
+  
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
+}
+.journey-wrap:has(> .confirmation-card) {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  grid-template-columns: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  gap: 0 !important;
+}
+
+.journey-wrap:has(> .confirmation-card) > .confirmation-card {
+  width: 100% !important;
+  max-width: 700px !important;
+  margin: 0 auto !important;
+  box-sizing: border-box;
+}
